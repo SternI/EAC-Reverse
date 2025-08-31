@@ -1,4 +1,5 @@
 # MouseClassServiceCallback
+## Post: [MouseClassServiceCallback Fix](https://www.unknowncheats.me/forum/fortnite/715647-mouseclassservicecallback-fix.html)
 ### EAC now hooks **ClassService** through:
 ``MouseDevice->DeviceExtension->MouhidDeviceObject->DeviceExtension->ConnectedData``
 
