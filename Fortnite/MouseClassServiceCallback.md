@@ -7,7 +7,7 @@ EAC callback perform two checks (caller address & input buffer), but they are us
 **ExtraInformation** is the trick!
 Fortnite now only accept mouse input if **ExtraInformation** is set to a valid value.
 
-That’s why EAC hooks the mouse callback: it sets the correct **ExtraInformation**, ensuring that legitimate mouse input is accepted by the game.
+That's why EAC hooks the mouse callback: it sets the correct **ExtraInformation**, ensuring that legitimate mouse input is accepted by the game.
 
 Solution:
 Just add this to your input and make sure to call the callback directly like **Mouclass->MouseClassServiceCallback(...)**
