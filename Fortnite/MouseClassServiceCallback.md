@@ -1,6 +1,6 @@
 # MouseClassServiceCallback
 ### EAC now hooks **ClassService** through:
-``MouseDevice->DeviceExtension->MouhidDeviceObject->DeviceExtension->ConnectedData``.
+``MouseDevice->DeviceExtension->MouhidDeviceObject->DeviceExtension->ConnectedData``
 
 EAC callback perform two checks (caller address & input buffer), but they are useless.
 
